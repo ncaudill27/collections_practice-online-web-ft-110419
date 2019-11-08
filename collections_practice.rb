@@ -23,3 +23,7 @@ def kesha_maker(array)
   array.collect { |element| element[2] = "$" }
   array
 end
+
+def find_a(array)
+  array.find_all { |word| word[0] == "a" }
+end
