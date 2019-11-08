@@ -39,3 +39,5 @@ def add_s(array)
   end
   array
 end
+
+add_s(%w[here are word])
