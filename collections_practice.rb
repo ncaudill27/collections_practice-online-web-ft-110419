@@ -34,10 +34,8 @@ end
 
 def add_s(array)
   array.collect do |word| 
-    next if array[1]
-    p word.insert(-1, "s") 
+    next if word == array[1]
+    word.insert(-1, "s") 
   end
   array
 end
-
-add_s(%w[here are word])
